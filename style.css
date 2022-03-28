@@ -1,4 +1,8 @@
-
+html
+{
+  
+    box-sizing: border-box;
+}
 
 a{
     color: #F9FAF8;
@@ -20,13 +24,15 @@ h2{
 body{
     background-color: #1F2937;
     color: #F9FAF8;
+    margin:0px;
+    height:100vh;
+    width:100%;
+
 }
 
-figure{
-    display: flex;
-    flex-direction: column;
-  
-    
+figure
+{
+    height:fit-content;
 }
 
 .header{
@@ -59,8 +65,11 @@ figure{
     display: flex;
     justify-content:center;
     align-items: center;
-    width:100vw;
-    height:fit-content;    
+    width:100%;
+    height:fit-content;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+ 
 }
 
 #logo{
@@ -82,25 +91,25 @@ figure{
 }
 
 #pic-1{
-    width:100%;
+    max-width:350px;
     height:405px;
     object-fit: contain;
 }
 
 #pic-2{
-    width:100%;
+    max-width:350px;
     height:405px;
     object-fit: contain;
 
 }
 #pic-3{
-    width:100%;
+    max-width:350px;
     height:405px;
     object-fit: contain;
 
 }
 #pic-4{
-    width:100%;
+    max-width:350px;
     height:405px;
     object-fit: contain;
 
