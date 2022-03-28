@@ -50,7 +50,6 @@ figure img{
     background-color: #1F2937;
     align-items: flex-start;
     justify-content: space-around;
-    margin-bottom: 50px;
 }
 .hero{
     display:flex;
@@ -63,12 +62,13 @@ figure img{
     flex-direction: column;
     align-items: flex-start;
     width:20%;
+    
 }
 
 .main-body{
     background-color: #F9FAF8;
     color:#1F2937;
-    margin:0px;
+    padding-top: 30px;
 }
 
 .pics{
@@ -78,6 +78,7 @@ figure img{
     width:100%;
     height:fit-content;
     flex-wrap: wrap;
+
  
 }
 
