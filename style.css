@@ -65,20 +65,20 @@ figure img{
 
 .header a[href*="instagram.com/"] {
     background:url(https://instagram.com/favicon.ico) no-repeat left center;
-    padding-left:11%;
+    padding-left:19px;
     background-size:contain;
 }
     
 .header a[href*="facebook.com/"] {
     background:url(https://www.facebook.com/favicon.ico) no-repeat left center;
-    padding-left:11%;
+    padding-left:19px;
     background-size:contain;
 
 }
 
 .header a[href*="soundcloud.com/"] {
     background:url(https://www.soundcloud.com/favicon.ico) no-repeat left center;
-    padding-left:11%;
+    padding-left:19px;
     background-size:contain;
 
 }
