@@ -26,9 +26,11 @@ body{
     background-color: #1F2937;
     color: #F9FAF8;
     margin:0px;
-    height:100vh;
+    height:100%;
     width:100%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 figure
@@ -51,20 +53,31 @@ figure img{
     background-color: #1F2937;
     align-items: flex-start;
     justify-content: space-around;
+    padding-top: 1%;
+}
+.links{
+    display: flex;
+    gap:5%;
+
 }
 .hero{
     display:flex;
     justify-content: space-evenly;
     align-items: center;
     margin-bottom: 50px;
+    color: #F9FAF8;
 
 }
-.hero_txt{
+.hero-txt{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
     width:20%;
-    
+}
+
+.hero-description{
+    color: #E5E7EB;
+    margin-top: 2%;
 }
 
 .main-body{
@@ -104,7 +117,7 @@ figure img{
 }
 .action-call{
     background-color: #3882F6;
-    border-radius: 15px;
+    border-radius: 10px;
     margin:5%;
     padding:1%;
     display: flex;
@@ -117,7 +130,6 @@ figure img{
 }
 
 .call-text{
-
     color:#E5E7EB;
 }
 
@@ -125,19 +137,22 @@ figure img{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1%;
+    margin: 2%;
+    padding: 0px;
 }
 #logo{
     width:148px;
     height:auto;
     }
     
-#top_button{
+#top-button{
     color: #F9FAF8;
     background-color: #3882F6;
-    width: 90px;
-    height:auto;
-    margin-top: 20px;
+    width:max-content;
+    height:fit-content;
+    margin-top: 15%;
+    border-radius: 5px;
+    padding:5%;
 }
 
 #splash{
