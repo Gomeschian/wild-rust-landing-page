@@ -34,6 +34,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 figure
@@ -52,6 +53,7 @@ figure img{
 
 .header{
     display:flex;
+    flex-wrap: wrap;
     background-color: #1F2937;
     align-items: flex-start;
     justify-content: center;
@@ -66,6 +68,7 @@ figure img{
 }
 .hero{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap:15%;
     align-items: center;
@@ -128,6 +131,7 @@ figure img{
     margin:5%;
     padding:1%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap:10%;
     align-items: center;
@@ -143,6 +147,7 @@ figure img{
 
 .footer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 2%;
