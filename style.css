@@ -75,14 +75,12 @@ figure img{
     margin-bottom: 50px;
     color: #F9FAF8;    
     font-size:larger ;
-
-
 }
 .hero-txt{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    width:20%;
+    min-width:20%; 
 }
 
 .hero-description{
@@ -170,7 +168,7 @@ figure img{
 
 #splash{
     width:444px;
-    height:auto;
+    height:fit-content;
 }
 
 #bot-button{
