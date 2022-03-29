@@ -8,6 +8,9 @@ a{
     color: #F9FAF8;
 }
 
+button{
+    cursor: pointer;
+}
 
 h1{
     font-size: 48px;
@@ -47,25 +50,29 @@ figure img{
     border-radius: 15px;
  }
 
-
 .header{
     display:flex;
     background-color: #1F2937;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
+    gap:35%;
     padding-top: 1%;
 }
 .links{
     display: flex;
     gap:5%;
+    padding-right: 5%;
 
 }
 .hero{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:15%;
     align-items: center;
     margin-bottom: 50px;
-    color: #F9FAF8;
+    color: #F9FAF8;    
+    font-size:larger ;
+
 
 }
 .hero-txt{
@@ -121,7 +128,8 @@ figure img{
     margin:5%;
     padding:1%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:10%;
     align-items: center;
 }
 .action-call h4{
