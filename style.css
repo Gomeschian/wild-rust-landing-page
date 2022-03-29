@@ -8,6 +8,7 @@ a{
     color: #F9FAF8;
 }
 
+
 h1{
     font-size: 48px;
     font-weight:bolder;
@@ -41,7 +42,7 @@ figure img{
     max-height:405px;
     object-fit: contain;
     border:5px solid #3882F6;
-    border-radius: 25px;
+    border-radius: 15px;
  }
 
 
@@ -84,8 +85,7 @@ figure img{
 .testimonial{
     background-color: #E5E7EB;
     color: #1F2937;
-    font-size: 36px;
-    
+    font-size: 36px;    
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left:25%;
@@ -101,7 +101,24 @@ figure img{
     color: #1F2937;
     font-weight: bolder;
     margin:0;
+}
+.action-call{
+    background-color: #3882F6;
+    border-radius: 15px;
+    margin:5%;
+    padding:1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.action-call h4{
+    margin-bottom: 0px;
+    color: #F9FAF8;
+}
 
+.call-text{
+
+    color:#E5E7EB;
 }
 #logo{
     width:148px;
@@ -121,8 +138,23 @@ figure img{
     height:auto;
 }
 
-
-
+#bot-button{
+    width:max-content;
+    height:fit-content;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+    margin:5%;
+    margin-left: 10%;
+    margin-right:10%;
+    padding:20%;
+    
+}
+#bot-button:active{
+    border-style: inset;
+}
 
 
 
