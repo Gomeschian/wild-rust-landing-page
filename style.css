@@ -57,8 +57,9 @@ figure img{
     background-color: #1F2937;
     align-items: flex-start;
     justify-content: center;
-    gap:60%;
+    gap:55%;
     padding-top: 1%;
+    padding-bottom: 1%;
     margin-bottom: 1%;
 }
 .links{
@@ -71,17 +72,19 @@ figure img{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:15%;
-    align-items: center;
-    margin-bottom: 50px;
+    gap:10%;
+    align-items: flex-start;
+    margin-bottom: 0%;
     color: #F9FAF8;    
-    font-size:larger ;
+    font-size:larger;
+    margin-bottom: -5%;
 }
 .hero-txt{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
     min-width:20%; 
+    align-self: flex-start;
 }
 
 .hero-description{
@@ -92,7 +95,8 @@ figure img{
 .main-body{
     background-color: #F9FAF8;
     color:#1F2937;
-    padding-top: 30px;
+    padding-top: 1%;
+    margin-top: 0;
 }
 
 .pics{
@@ -170,7 +174,7 @@ figure img{
 
 #splash{
     width:444px;
-    height:fit-content;
+    height:auto;
 }
 
 #bot-button{
