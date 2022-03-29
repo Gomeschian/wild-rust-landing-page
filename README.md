@@ -1,3 +1,3 @@
-# Odin-Landing_Page
+# wild-rust-landing-page
 
 Odin Project Foundations Course Project - Landing Page (...Project)
