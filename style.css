@@ -84,7 +84,7 @@ figure img{
     flex-direction: column;
     align-items: flex-start;
     min-width:20%; 
-    align-self: flex-start;
+    align-self:center;
 }
 
 .hero-description{
