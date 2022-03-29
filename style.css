@@ -57,8 +57,9 @@ figure img{
     background-color: #1F2937;
     align-items: flex-start;
     justify-content: center;
-    gap:35%;
+    gap:60%;
     padding-top: 1%;
+    margin-bottom: 1%;
 }
 .links{
     display: flex;
@@ -161,7 +162,8 @@ figure img{
     background-color: #3882F6;
     width:max-content;
     height:fit-content;
-    margin-top: 15%;
+    margin-top: 25%;
+    margin-bottom: 25%;
     border-radius: 5px;
     padding:5%;
 }
