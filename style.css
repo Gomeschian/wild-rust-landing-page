@@ -120,6 +120,13 @@ figure img{
 
     color:#E5E7EB;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
 #logo{
     width:148px;
     height:auto;
