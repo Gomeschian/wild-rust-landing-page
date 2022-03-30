@@ -155,8 +155,6 @@ figure img{
 .action-call{
     background-color: #3882F6;
     border-radius: 10px;
-    margin-left:25%;
-    margin-right:25%;
     padding:1%;
     display: flex;
     flex-wrap: wrap;
