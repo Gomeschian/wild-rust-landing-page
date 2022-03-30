@@ -55,9 +55,9 @@ figure img{
     display:flex;
     flex-wrap: wrap;
     background-color: #1F2937;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
-    gap:53%;
+    gap:50%;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 1%;
@@ -93,18 +93,17 @@ figure img{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:10%;
+    gap:25%;
     align-items: flex-start;
-    margin-bottom: 0%;
     color: #F9FAF8;    
     font-size:larger;
-    margin-bottom: -5%;
+    margin-bottom: 3%;
 }
 .hero-txt{
     display:flex;
     flex-direction: column;
     align-items: flex-start;
-    min-width:20%; 
+    max-width:28%; 
     padding-top: 5%;
 
 }
@@ -133,7 +132,7 @@ figure img{
 .testimonial{
     background-color: #E5E7EB;
     color: #1F2937;
-    font-size: 36px;    
+    font-size: 32px;    
     padding-top: 2%;
     padding-bottom: 2%;
     padding-left:25%;
@@ -160,8 +159,7 @@ figure img{
     padding:1%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    gap:10%;
+    justify-content: space-around;
     align-items: center;
 }
 .action-call h4{
@@ -198,13 +196,13 @@ figure img{
 }
 
 #splash{
-    width:444px;
+    width:450px;
     height:auto;
 }
 
 #bot-button{
     width:max-content;
-    height:fit-content;
+    height:auto;
     background-color: #3882F6;
     color: #E5E7EB;
     border-style: solid;
