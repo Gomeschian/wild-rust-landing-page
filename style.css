@@ -35,6 +35,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 figure
@@ -155,17 +156,15 @@ figure img{
 .action-call{
     background-color: #3882F6;
     border-radius: 10px;
-    margin-top:0;
-    margin-bottom: 0;
-    margin-left: 25em;
-    margin-right: 25em;
+    margin-top:1%;
+    margin-bottom: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
     padding:1%;
-    font-size: 14pt;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
-    height: auto;
 }
 .action-call h4{
     margin-bottom: 0px;
