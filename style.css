@@ -181,8 +181,8 @@ figure img{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 2em;
-    padding: 0px;
+    margin: 0em;
+    padding: 1em;
 }
 #logo{
     width:170px;
