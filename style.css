@@ -166,6 +166,7 @@ figure img{
     justify-content: center;
     gap:10%;
     align-items: center;
+    max-width: 100m;
 }
 .action-call h4{
     margin-bottom: 0px;
