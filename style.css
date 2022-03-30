@@ -34,7 +34,6 @@ body{
     width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
@@ -156,17 +155,16 @@ figure img{
 .action-call{
     background-color: #3882F6;
     border-radius: 10px;
-    margin-top:1%;
-    margin-bottom: 1%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left:25%;
+    margin-right:25%;
+    margin-top:10px;
+    margin-bottom: 10px;
     padding:1%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap:10%;
     align-items: center;
-    max-width: 100m;
 }
 .action-call h4{
     margin-bottom: 0px;
@@ -182,7 +180,7 @@ figure img{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 2%;
+    margin-top: 1%;
     padding: 0px;
 }
 #logo{
