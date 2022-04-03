@@ -204,11 +204,10 @@ figure img{
 }
 
 #splash{
-    max-width: 496px;
+    max-width: 200px;
     height: auto;
     margin-top: 0;
     margin-bottom: 0;
-    object-fit: contain;
 }
 
 #bot-button{
