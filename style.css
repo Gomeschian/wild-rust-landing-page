@@ -6,6 +6,7 @@ html
 
 a{
     color: #F9FAF8;
+    font-size: 20px;
 }
     
 button{
@@ -19,7 +20,7 @@ h1{
 }
 
 h2{
-    font-size: 36px;
+    font-size: 45px;
     font-weight: bolder;
     color:#1F2937;
     text-align: center;
@@ -29,12 +30,10 @@ body{
     background-color: #1F2937;
     color: #F9FAF8;
     margin:0px;
-    height:100%;
-    width:100%;
+    height:auto;
+    max-width:100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
 }
 
 figure
@@ -57,7 +56,8 @@ figure img{
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
-    gap: 54%;
+    column-gap: 57rem;
+    row-gap: 0;
     padding-top: 1%;
     padding-bottom: 1%;
     margin-bottom: 1%;
@@ -87,18 +87,19 @@ figure img{
     gap:5%;
     padding-right: 5%;
     align-self: center;
-    margin-top: 1em;
+    margin-top: 1rem;
 
 }
 .hero{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:15%;
+    align-items: flex-start;
+    column-gap:15%;
     color: #F9FAF8;    
     font-size:larger;
     margin-bottom: 1%;
-    max-width: 100em;
+    margin-top: 1%;
 }
 .hero-txt{
     display:flex;
@@ -184,7 +185,7 @@ figure img{
     padding: 0px;
 }
 #logo{
-    width:170px;
+    width:200px;
     height:auto;
     }
     
@@ -201,8 +202,9 @@ figure img{
 }
 
 #splash{
-    max-width: 530px;
-    object-fit: contain;
+    max-width: 496px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #bot-button{
