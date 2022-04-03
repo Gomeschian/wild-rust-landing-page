@@ -207,6 +207,7 @@ figure img{
     max-width: 496px;
     margin-top: 0;
     margin-bottom: 0;
+    object-fit: contain;
 }
 
 #bot-button{
