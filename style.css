@@ -101,6 +101,7 @@ figure img{
     font-size:larger;
     margin-bottom: 1%;
     margin-top: 1%;
+    max-width: 100%;
 }
 .hero-txt{
     display:flex;
