@@ -203,10 +203,10 @@ figure img{
 }
 
 #splash{
-    max-width: 530px;
+    max-width: 496px;
+    height:auto;
     object-fit: contain;
-    display: inline-block;
-    position: relative;
+
 }
 
 #bot-button{
