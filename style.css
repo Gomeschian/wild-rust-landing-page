@@ -205,6 +205,8 @@ figure img{
 #splash{
     max-width: 530px;
     object-fit: contain;
+    display: inline-block;
+    position: relative;
 }
 
 #bot-button{
