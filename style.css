@@ -56,7 +56,7 @@ figure img{
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
-    column-gap: 48%;
+    column-gap: 50%;
     row-gap: 0;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -100,7 +100,7 @@ figure img{
     font-size:larger;
     margin-bottom: 1%;
     margin-top: 1%;
-    max-width: 100vw;
+    max-width: 100%;
 }
 .hero-txt{
     display:flex;
@@ -203,10 +203,8 @@ figure img{
 }
 
 #splash{
-    max-width:496px;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    max-width: 530px;
+    object-fit: contain;
 }
 
 #bot-button{
