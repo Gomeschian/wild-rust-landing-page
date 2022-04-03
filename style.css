@@ -203,10 +203,12 @@ figure img{
 }
 
 #splash{
-    max-width:26em;
+    max-width:  26vw;
     height: auto;
     margin-top: 0;
     margin-bottom: 0;
+    display: flex;
+    flex-shrink: 0;
 }
 
 #bot-button{
