@@ -34,7 +34,6 @@ body{
     width:100%;
     display: flex;
     flex-direction: column;
-    align-items:unset;
 }
 
 figure
@@ -205,6 +204,7 @@ figure img{
 
 #splash{
     max-width: 496px;
+    height: auto;
     margin-top: 0;
     margin-bottom: 0;
     object-fit: contain;
