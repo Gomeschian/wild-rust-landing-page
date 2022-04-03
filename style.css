@@ -30,7 +30,8 @@ body{
     background-color: #1F2937;
     color: #F9FAF8;
     margin:0px;
-    width: calc(100vw - (100vw - 100%));
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
  }
@@ -202,7 +203,7 @@ figure img{
 }
 
 #splash{
-    max-width: 496px;
+    max-width: 375px;
     height: auto;
     margin-top: 0;
     margin-bottom: 0;
