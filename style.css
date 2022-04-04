@@ -159,11 +159,15 @@ figure img{
     border-radius: 10px;
     margin-top:1%;
     margin-bottom: 1%;
-    margin-left: 25%;
     margin-right: 25%;
-    padding:1%;
+    margin-left: 25%;
+    padding:3%;
+    padding-left:2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     font-size: 14pt;
     display: flex;
+    flex-basis: 100rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-end;
@@ -211,8 +215,8 @@ figure img{
 }
 
 #bot-button{
-    width:max-content;
-    height:auto;
+    max-width: max-content;
+    width: max-content;
     background-color: #3882F6;
     color: #E5E7EB;
     border-style: solid;
