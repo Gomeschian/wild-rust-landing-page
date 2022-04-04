@@ -194,15 +194,14 @@ figure img{
     height:auto;
     }
     
-#top-button{
+#top-button,#bot-button{
     color: #F9FAF8;
     background-color: #3882F6;
-    width:max-content;
-    height:fit-content;
-    margin-top: 25%;
-    margin-bottom: 25%;
+    width:fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     border-radius: 5px;
-    padding:10%;
+    padding:10px;
     font-size: 12pt;
 }
 
@@ -215,24 +214,15 @@ figure img{
 }
 
 #bot-button{
-    max-width: max-content;
-    width: max-content;
-    background-color: #3882F6;
+   
     color: #E5E7EB;
     border-style: solid;
     border-color: white;
     border-radius: 5px;
-    margin:5%;
-    margin-left: 10%;
-    margin-right:10%;
-    padding:20%;    
+    
     font-size: 11pt;
 
 }
 #bot-button:active{
     border-style: inset;
 }
-
-
-
-
