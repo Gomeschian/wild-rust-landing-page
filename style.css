@@ -203,6 +203,8 @@ figure img{
     border-radius: 5px;
     padding:10px;
     font-size: 12pt;
+    border-style: solid;
+    text-decoration: none;
 }
 
 #splash{
@@ -213,15 +215,6 @@ figure img{
 
 }
 
-#bot-button{
-   
-    border-style: solid;
-    border-color: white;
-    border-radius: 5px;
-    
-    font-size: 11pt;
-
-}
-#bot-button:active{
+#top-button:active, #bot-button:active{
     border-style: inset;
 }
