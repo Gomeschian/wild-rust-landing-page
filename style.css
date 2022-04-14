@@ -14,9 +14,10 @@ button{
 }
 
 h1{
-    font-size: 52px;
+    font-size: 240%;
     font-weight:bolder;
     margin:0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h2{
@@ -56,7 +57,7 @@ figure img{
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
-    column-gap: 50%;
+    column-gap: 61%;
     row-gap: 0;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -95,7 +96,7 @@ figure img{
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    column-gap:15%;
+    column-gap:10%;
     color: #F9FAF8;    
     font-size:larger;
     margin-bottom: 1%;
@@ -107,9 +108,9 @@ figure img{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    max-width: 40%;
+    max-width: 59%;
     padding-top: 5%;
-    font-size: 20pt;
+    font-size: 107%;
 }
 
 .hero-description{
@@ -131,6 +132,7 @@ figure img{
     width:100%;
     height:fit-content;
     flex-wrap: wrap; 
+    font-size: 105%;
 }
 
 .testimonial{
