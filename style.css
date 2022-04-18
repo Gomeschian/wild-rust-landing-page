@@ -57,7 +57,7 @@ figure img{
     background-color: #1F2937;
     align-items: center;
     justify-content: center;
-    column-gap: 61%;
+    column-gap: 57%;
     row-gap: 0;
     padding-top: 1%;
     padding-bottom: 1%;
@@ -95,11 +95,11 @@ figure img{
     display:flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
-    column-gap:10%;
+    align-items: center;
+    column-gap:5%;
     color: #F9FAF8;    
     font-size:larger;
-    margin-bottom: 1%;
+    margin-bottom: 8%;
     margin-top: 1%;
     max-width: 100%;
 }
