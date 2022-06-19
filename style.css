@@ -59,19 +59,22 @@ figure img {
   padding: 3rem;
 }
 
-.header a[href*="instagram.com/"] {
+.header a[href*="instagram.com/"],
+.footer a[href*="instagram.com/"] {
   background: url(https://instagram.com/favicon.ico) no-repeat left center;
   padding-left: 23px;
   background-size: contain;
 }
 
-.header a[href*="facebook.com/"] {
+.header a[href*="facebook.com/"],
+.footer a[href*="facebook.com/"] {
   background: url(https://www.facebook.com/favicon.ico) no-repeat left center;
   padding-left: 23px;
   background-size: contain;
 }
 
-.header a[href*="soundcloud.com/"] {
+.header a[href*="soundcloud.com/"],
+.footer a[href*="soundcloud.com/"] {
   background: url(https://www.soundcloud.com/favicon.ico) no-repeat left center;
   padding-left: 23px;
   background-size: contain;
@@ -176,10 +179,14 @@ figure img {
 
 .footer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1rem;
   padding: 0;
+}
+.footer .text {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
 }
 #logo {
   width: 200px;
@@ -271,14 +278,14 @@ figure img {
   .header a[href*="instagram.com/"],
   .footer a[href*="instagram.com/"] {
     background: url(https://instagram.com/favicon.ico) no-repeat left center;
-    padding-left: 19px;
+    padding-left: 19.5px;
     background-size: contain;
   }
 
   .header a[href*="facebook.com/"],
   .footer a[href*="facebook.com/"] {
     background: url(https://www.facebook.com/favicon.ico) no-repeat left center;
-    padding-left: 19px;
+    padding-left: 19.5px;
     background-size: contain;
   }
 
@@ -286,7 +293,7 @@ figure img {
   .footer a[href*="soundcloud.com/"] {
     background: url(https://www.soundcloud.com/favicon.ico) no-repeat left
       center;
-    padding-left: 19px;
+    padding-left: 19.5px;
     background-size: contain;
   }
   .links {
