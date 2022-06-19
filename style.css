@@ -268,19 +268,22 @@ figure img {
     justify-content: space-between;
   }
 
-  .header a[href*="instagram.com/"] {
+  .header a[href*="instagram.com/"],
+  .footer a[href*="instagram.com/"] {
     background: url(https://instagram.com/favicon.ico) no-repeat left center;
     padding-left: 19px;
     background-size: contain;
   }
 
-  .header a[href*="facebook.com/"] {
+  .header a[href*="facebook.com/"],
+  .footer a[href*="facebook.com/"] {
     background: url(https://www.facebook.com/favicon.ico) no-repeat left center;
     padding-left: 19px;
     background-size: contain;
   }
 
-  .header a[href*="soundcloud.com/"] {
+  .header a[href*="soundcloud.com/"],
+  .footer a[href*="soundcloud.com/"] {
     background: url(https://www.soundcloud.com/favicon.ico) no-repeat left
       center;
     padding-left: 19px;
@@ -307,7 +310,7 @@ figure img {
     justify-content: flex-start;
     max-width: 100%;
     padding-top: 1rem;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
   }
 
   .hero-paragraphs {
@@ -389,10 +392,15 @@ figure img {
 
   .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 1rem;
-    padding: 0;
+    margin: 0;
+  }
+
+  .footer .text {
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
   }
   #logo {
     width: 200px;
