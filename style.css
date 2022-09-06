@@ -177,6 +177,11 @@ figure img {
   color: #e5e7eb;
 }
 
+.social-feeds {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 .footer {
   display: flex;
   flex-direction: column;
@@ -396,10 +401,10 @@ figure img {
   .call-text {
     color: #e5e7eb;
   }
-.social-feeds{
-  display: flex;
-  flex-wrap: wrap;
-}
+  .social-feeds {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .footer {
     display: flex;
     flex-direction: column;
