@@ -396,7 +396,10 @@ figure img {
   .call-text {
     color: #e5e7eb;
   }
-
+.social-feeds{
+  display: flex;
+  flex-wrap: wrap;
+}
   .footer {
     display: flex;
     flex-direction: column;
