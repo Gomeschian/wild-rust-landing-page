@@ -40,7 +40,7 @@ figure {
   text-align: center;
 }
 
-figure img {
+.pics figure img {
   max-width: 350px;
   max-height: 405px;
   object-fit: contain;
@@ -179,9 +179,13 @@ figure img {
 
 .social-feeds {
   display: flex;
-  justify-content: center;
-  column-gap: 5rem;
+  justify-content: space-evenly;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.upcoming img {
+  max-width: 100%;
 }
 .footer {
   display: flex;
