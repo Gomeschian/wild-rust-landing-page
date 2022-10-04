@@ -186,7 +186,8 @@ figure {
 
 .social-feeds {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  column-gap: 5rem;
   flex-wrap: wrap;
   align-items: center;
 }
@@ -205,7 +206,8 @@ figure {
   margin-bottom: 1rem;
   border-style: outset;
   border-width: 0.25rem;
-  border-color: rgb(112, 110, 106);
+  border-color: #e5e7eb;
+  color: #1f2937;
 }
 .footer {
   display: flex;
