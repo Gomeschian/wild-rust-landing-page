@@ -203,6 +203,9 @@ figure {
   max-width: 100%;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  border-style: outset;
+  border-width: 0.25rem;
+  border-color: rgb(112, 110, 106);
 }
 .footer {
   display: flex;
