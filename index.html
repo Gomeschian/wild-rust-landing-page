@@ -31,6 +31,25 @@
       src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v14.0"
       nonce="JPQpD17S"
     ></script>
+    <script>
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "firebase/app";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyCYdgkVwIIg-xo8pl_FRewgM954RpC1u0w",
+        authDomain: "wild-rust-landing-page.firebaseapp.com",
+        projectId: "wild-rust-landing-page",
+        storageBucket: "wild-rust-landing-page.appspot.com",
+        messagingSenderId: "274937249820",
+        appId: "1:274937249820:web:a0813e86b78f07b0461fd9",
+      };
+
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
     <div class="header">
       <img id="logo" src="./wrlogo.png" alt="Header Logo" />
       <div class="links">
@@ -457,7 +476,7 @@
         </div>
       </div>
     </div>
-   <!--
+    <!--
  <div class="upcoming">
       <h2>Upcoming</h2>
       <div class="upcoming-pictures">
@@ -468,7 +487,7 @@
     </div>
 
 -->
-    
+
     <div class="spotify-playlist">
       <iframe
         style="border-radius: 12px"
